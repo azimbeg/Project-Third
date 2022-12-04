@@ -1,0 +1,317 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+   
+    .nav{
+        background-color: black;
+        background-size: 100% 100%;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: fixed;
+    }
+    .nav nav a{
+         
+         text-decoration: none;
+         color: white;
+         padding: 3px 26px;
+         font-size: 18px;
+         text-transform: uppercase;
+         transition-duration: 1s;
+         background-color:black;
+    }
+    .nav nav a:hover{
+        background-color: grey;
+        border-radius: 10px;
+
+    }
+    .nav nav .search{
+        position: relative;
+        Left: 650px;
+    }
+
+    .banner
+    {
+        width: 100%;
+        height: 610px;
+        animation-name: banner;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+        @keyframes banner
+        {
+            0%{
+                background-image: url("https://thumbs.dreamstime.com/b/professional-music-mixer-board-hands-dj-party-night-club-black-white-photo-virtual-reality-glitch-effect-198809150.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            25%{
+                background-image: url("https://c4.wallpaperflare.com/wallpaper/134/536/40/lights-music-headphones-tiesto-wallpaper-preview.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            50%{
+                background-image: url("https://img.freepik.com/premium-photo/dj-hands-equipment-deck-mixer-party-cut-shot-disk-jockey-black-hoody-mixing-music-night-club-night-life-concept-hanging-out-with-friends_341052-155.jpg?w=2000");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            75%{
+                background-image: url("https://w0.peakpx.com/wallpaper/198/58/HD-wallpaper-we-are-the-crowd-black-and-white-music-dancer-dj.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;   
+            }
+            100%{
+                background-image: url("https://i.ytimg.com/vi/0X6I5Os7KsU/maxresdefault.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+         .band
+         {
+            text-align: center ;
+         }
+        .band h1
+        {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 30px;
+            margin-top: 60px;
+            padding: 30px;
+        }
+        .band em{
+            padding-top: 30px;
+            text-align: center;
+            font-size: 15px;
+            
+        }
+        .band pre{
+            text-align: justify;
+            padding-top: 20px;
+            padding-left: 250px;
+            font-size: 20px;
+            font-family: Noto;
+        }
+    
+        .band .second table 
+        {
+            position: relative;
+            left: 400px;
+            margin-top: 50px;
+            padding: 10px 30px;
+            text-align: center;
+        }
+        .band .second table tr td{
+            padding:10px;
+            font-weight: bold;
+        }
+        .tour{
+            
+            background-color: black;
+            background-size: 100% 100%;
+            width: 100%;
+            color: white;
+            padding: 15px 0px;
+            padding-bottom: 50px;
+        }
+        .tour .tour-head{
+            padding: 40px 0px;
+            text-align: center;
+        }
+        .tour .tour-head h1{
+                 text-transform: uppercase;
+                 padding-bottom: 20px;
+                 font-size: 30px;
+        }
+        .tour .tour-head em{
+            color: lightgray;
+        }
+        .tour .tour-month
+        {
+            background-color: white;
+            margin: 0px 60px;
+        } 
+        .tour .tour-month .one
+        {
+            
+            border: 1px solid gray;
+            padding: 10px;
+        }
+        .tour .tour-month .two
+        {
+            
+            border: 1px solid gray;
+            padding: 10px;
+        }
+        .tour .tour-month .three
+        {
+            
+            border: 1px solid gray;
+            padding: 10px;
+            
+        }
+        .tour .tour-month span
+        {
+           color: black;
+           position: relative;
+           left: 30px;
+        }
+        .tour .tour-month button{
+            padding: 6px;
+            background-color: red;
+            color: white;
+            border: none;
+            position: relative;
+            left: 40px;
+        }
+        .tour .tour-month .number
+        {
+            background-color: black;
+            color: white;
+            padding: 5px 10px;
+            position: relative;
+            left: 1100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .tour .city
+        {
+            margin-top: 15px;
+            display: flex;
+        }
+        .tour .city .first{
+            background-color: white;
+            color: black;
+            margin: 10px;
+            padding: 10px;
+            position: relative;
+            left: 75px;
+        }
+        .tour .city .first button 
+       {
+         background-color: black;
+         color: white;
+         padding: 6px;
+         margin-top: 10px;
+       }
+        .tour .city .second{
+            background-color: white;
+            color: black;
+            margin: 10px;
+            padding: 10px;
+            position: relative;
+            left: 75px;
+        }
+        .tour .city .second button 
+       {
+         background-color: black;
+         color: white;
+         padding: 6px;
+         margin-top: 10px;
+       }
+        .tour .city .third
+        {
+            background-color: white;
+            color: black;
+            margin: 10px;
+            padding: 10px;
+            position: relative;
+            left: 75px;
+        }
+        .tour .city .third button 
+       {
+         background-color: black;
+         color: white;
+         padding: 6px;
+         margin-top: 10px;
+       }
+
+        .contact
+        {
+            margin-top: 60px;
+        }
+       .contact .head
+       {
+          text-align: center;
+       }
+       .contact .head b
+       {
+          text-transform: uppercase;
+          font-size: 25px;
+       }
+       .contact .head em
+       {
+        position: relative; 
+        top: 15px;
+       }
+       .contact .contact-second
+       {  
+        display: flex;
+        padding-top: 60px;
+          
+       }
+       .contact .contact-second .first 
+       {
+          padding-left: 150px;
+       }
+       .contact .contact-second .first i
+       {
+          padding-bottom: 10px;
+       }
+       .contact .contact-second .first span
+       {
+          padding-left: 10px;
+       }
+       .contact .contact-second .second 
+       {
+          padding-left: 400px;
+       }
+       .contact .contact-second .second  input
+       {
+          padding: 9px 50px;
+          margin-bottom: 9px;
+          border: 1px solid gray;
+       }
+       .contact .contact-second .second  button
+       {
+          padding: 5px 10px;
+          margin-bottom: 9px;
+          background-color: black;
+          color: white;
+          position: relative;
+          left: 492px;
+       }
+       .contact .contact-second .second  input::placeholder
+       {
+        
+        position: relative;
+        right: 30px;
+       }
+       .contact .contact-second .second  #message::placeholder
+       {
+        
+        position: relative;
+        right: 170px;
+       }
+       .full-img
+       {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Marine_Lines_Mumbai_2021.jpg/1280px-Marine_Lines_Mumbai_2021.jpg");
+        background-size: 100% 100%;
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+       }
+       
+       .brand
+       {
+        margin-top: 80px;
+        font-size: 30px;
+        text-align: center;
+       }
+       .brand em
+       {
+        font-size: 15px;
+       }
+   
